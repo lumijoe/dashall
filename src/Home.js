@@ -19,9 +19,9 @@ export default function Home() {
                 </nav>
             </header>
             <div className='w-[calc(1440px)] bg-[#F4F7FE] min-h-[100vh] ml-[290px] pt-[70px] px-8'>
-                <h1 className='text-xl'>システムサポートLP</h1>
+                <h1 className='text-xl mb-20'>システムサポートLP</h1>
 
-                <section className='flex flex-row gap-[20px] w-auto'>
+                <section className='flex flex-row gap-[20px] w-auto mb-20'>
                     <div className='w-[331px] h-auto'>
                         <ul class="flex flex-col gap-[20px]">
                             <li class="bg-white px-6 py-6 text-[#A3AED0] h-[98px] rounded-[20px] w-[100%]">category<br/><span className='text-light text-[1.3rem] text-[#1B2559]'>LP</span></li>
@@ -36,7 +36,55 @@ export default function Home() {
                         <img src="/images/img02.png" alt="" className="w-auto h-[170px] px-4 py-4 cover m-auto" />
                         <button type="button" class="rounded-full bg-[#4318FF] text-white text-sm w-[162px] py-2 ml-[60px] mr-[60px]"  >サイトへ</button>
                     </div>
+                </section>
 
+                <section>
+                    <ul className="w-[auto] gap-[20px] flex flex-row">
+                        <li>
+                            <h1 className='pb-3 pl-6 text-[#1B2559] text-sm'>デザインデータ</h1>
+                            <div className='w-[256px] bg-white rounded-[20px] h-[334px] p-6'>
+                                <p class=" text-2xl pb-6">Figma / Drive</p>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                                <br/>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h1 className='pb-3 pl-6 text-[#1B2559] text-sm'>ローカル環境</h1>
+                            <div className='w-[256px] bg-white rounded-[20px] h-[334px] p-6'>
+                                <p class=" text-2xl pb-6">Github</p>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                                <br/>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h1 className='pb-3 pl-6 text-[#1B2559] text-sm'>ステージング環境 / テスト環境</h1>
+                            <div className='w-[256px] bg-white rounded-[20px] h-[334px] p-6'>
+                                <p class=" text-2xl pb-6">WordPress Studio</p>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                                <br/>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h1 className='pb-3 pl-6 text-[#1B2559] text-sm'>本番環境 / 納品環境</h1>
+                            <div className='w-[256px] bg-white rounded-[20px] h-[334px] p-6'>
+                                <p class=" text-2xl pb-6">WordPress</p>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                                <br/>
+                                <p className='text-sm'>https://xxxxx/xxx</p>
+                                <p className='text-sm'>ID/PASS  xxxx/xxxxx</p>
+                            </div>
+                        </li>
+                    </ul>
                 </section>
             </div>          
         </div>
