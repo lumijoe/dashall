@@ -19,7 +19,7 @@ export default function Home() {
                 </nav>
             </header>
             <div className='w-[calc(1440px)] bg-[#F4F7FE] min-h-[100vh] ml-[290px] pt-[70px] px-8'>
-                <h1 className='text-xl mb-20'>システムサポートLP</h1>
+                <h1 className='text-3xl font-bold mb-20 text-[#2B3674]'>システムサポートLP</h1>
 
                 <section className='flex flex-row gap-[20px] w-auto mb-20'>
                     <div className='w-[331px] h-auto'>
