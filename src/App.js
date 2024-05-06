@@ -52,7 +52,7 @@ function App() {
     <div className=''>
       {loggedIn ? (
         <div>
-          <div className='w-[290px] bg-[white] absolute bottom-0 h-[120px] flex flex-col justify-center'>
+          <div className='w-[290px] bg-[white] absolute bottom-0 h-[120px] flex flex-col justify-center fixed'>
             <p className='self-center pb-2 text-sm text-[#A3AED0]'>{user}としてログイン中</p>
             <button onClick={handleLogout} className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2  px-4 mx-8 border border-blue-500 hover:border-transparent rounded">ログアウト</button>
           </div> 
